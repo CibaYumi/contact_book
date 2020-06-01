@@ -7,5 +7,7 @@ Universitário das Faculdades Metropolitanas Unidas - FMU, como exigência para 
 ## Dados
 
 **Aluna:** Cibele Yumi Shoji Cruz Tavares
+
 **RA:** 6686180
+
 **Curso:** Bacharel em Ciência da Computação/FMU - 3o semestre - Noturno
