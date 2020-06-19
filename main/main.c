@@ -54,7 +54,7 @@ BookList *insertContact(char name[]) {
   strcpy(newContact->name, name);
   printf("Informe o telefone: ");
   gets(newContact->fone);
-  fflush(stdin);
+  scanf(stdin);
   newContact->prev = NULL;
   newContact->next = NULL;
   return newContact;
@@ -212,19 +212,19 @@ int main() {
     printf("4 - Remover todos os contatos\n");
     op = getche();
     printf("\n");
-    fflush(stdin);
+    scanf(stdin);
     printf("\n");
     switch (op) {
     case '1':
       printf("Informe o nome do novo contato:");
       gets(name);
-      fflush(stdin);
+      scanf(stdin);
       signUpContact(&contactBook, name);
       break;
     case '2':
       printf("Informe o nome do contato que deseja exibir:");
       gets(name);
-      fflush(stdin);
+      scanf(stdin);
       showContact(contactBook, name);
       break;
     case '3':
